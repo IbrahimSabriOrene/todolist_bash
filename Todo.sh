@@ -35,6 +35,9 @@ function removeTodo {
   echo "line ${1} removed"
 }
 
+function showTodo {
+  cat "$target_dir/Todo.txt"
+}
 
 if [[  "$1" == "-create" ]]; then
   createTodo
@@ -50,4 +53,6 @@ if [[ "$1" == "-rm" ]]; then
   removeTodo "$2"
 fi
 
-
+if [[ "$1" == "-s" ]]; then
+  showTodo
+fi
