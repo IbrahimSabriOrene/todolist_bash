@@ -1,5 +1,4 @@
-
-
+```bash
 ##Get the current timestamp:
  current_timestamp=$(date +%s)
 
@@ -54,3 +53,4 @@ echo "     -DESC-                           -DATE-          -TIME-            -T
 #
 # Connect api from terminal. rest is you know. Add notification. 
 #
+```
