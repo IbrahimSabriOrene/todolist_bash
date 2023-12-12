@@ -29,6 +29,7 @@ echo "line added to the list"
 
 }
 
+# make it like this, when a line deleted, re-order list numbers.
 function removeTodo {
   #add timer here.
   sed -i "${1}d" "$target_dir/Todo.txt" 
